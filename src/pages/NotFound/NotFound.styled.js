@@ -16,15 +16,17 @@ export const Main = styled.main`
 `;
 
 export const Bold = styled.b`
-  font-size: 64px;
+  font-size: 44px;
+  margin-top: 10px
 `;
 
 export const HomeLink = styled(Link)`
   text-decoration: none;
-  color: darkred;
+  color: #808080;
+  font-weight: 500;
 
   &:hover,
   &:focus {
-    color: darkviolet;
+    color: red;
   }
 `;
